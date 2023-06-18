@@ -1,0 +1,28 @@
+*******User Interface:
+
+Create a user interface using HTML and CSS to allow users to input the limit expression they want to evaluate.
+Design the user interface with appropriate input fields, buttons, and result display areas.
+Backend Logic:
+
+********Set up a Flask server to handle incoming requests and serve the HTML templates.
+Define routes to handle different URLs, such as the homepage and form submission.
+When the user submits the form, the server will receive the input data.
+Processing the Limit Expression:
+
+********Extract the limit expression entered by the user from the form submission data.
+Use SymPy  to evaluate the limit expression and calculate the result.
+Handle any potential errors or exceptions that may occur during the evaluation process.
+Returning the Result:
+
+**********Pass the calculated result back to the Flask server.
+Render a result page using an HTML template and pass the result to it.
+Display the result on the result page for the user to see.
+User Experience:
+
+************Consider implementing error handling and validation to ensure proper input and provide informative error messages if needed.
+Enhance the user experience by adding features like clearing the input fields or allowing the user to perform multiple limit calculations without refreshing the page.
+Apply appropriate CSS styles to make the user interface visually appealing and user-friendly.
+Testing and Debugging:
+
+****************Test the limit calculator thoroughly by entering different limit expressions and verifying that the results are accurate.
+Debug any issues or errors that arise during testing and fix them to ensure the calculator functions correctly.
